@@ -1,0 +1,136 @@
+<<<<<<< HEAD:MouseDroid/MouseDroidClient/src/main/res/values/strings.xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">MouseDdroid</string>
+
+    <string name="txt_touchpad_keyboard">Touchpad and Keyboard</string>
+    <string name="txt_need_for_speed">\"Need for Speed\" control</string>
+    <string name="txt_slide_show">SlideShow control</string>
+    <string name="txt_settings">Settings</string>
+    <string name="txt_about_title">About</string>
+    <string name="txt_menu_control">Touchpad</string>
+
+    <string name="settings_act_tv_head">Server configuration</string>
+    <string name="settings_act_tv_ip">IP address </string>
+    <string name="settings_act_tv_port">Port</string>
+    <string name="settings_act_tv_btn_save">Save</string>
+    <string name="settings_act_btn_cancel">Cancel</string>
+
+    <string name="settings_act_match_ip_text">Set right value to IP</string>
+    <string name="settings_act_match_port_text">Set right value to port</string>
+    <string name="settings_act_saved_normally_text">Data has saved</string>
+    <string name="settings_act_saved_not_normally_text">Error occurred when saving data!</string>
+    <string name="settings_act_match_dialog_title">Coution!</string>
+    <string name="txt_connected_msg">Connected to server</string>
+    <string name="txt_connected_dont_msg">Couldn\'t connect to server</string>
+
+
+    <string name="need_for_speed_act__btn_stop">Brake</string>
+    <string name="need_for_speed_act_btn_start">Start</string>
+    <string name="need_for_speed_act_btn_pause">Pause</string>
+    <string name="need_for_speed_act_btn_direct">D</string>
+    <string name="need_for_speed_act_btn_return">R</string>
+    <string name="need_for_speed_act_btn_manual">Manual</string>
+    <string name="need_for_speed_act_btn_aoutomatic">Automatic</string>
+    <string name="need_for_speed_act_btn_plus">+</string>
+    <string name="need_for_speed_act_btn_minus">-</string>
+
+    <string name="slide_show_act_btn_start">Start</string>
+    <string name="slide_show_act_btn_end">End</string>
+    <string name="slide_show_act_information">To change pages swipe your finger on area to right and left</string>
+
+    <string name="dialog_wi_fi_enabling_question">Wi-Fi network is not active.\n Do you want activate?</string>
+    <string name="dialog_nfs_enabling_info">Press \"Start\" button after opening \"Need for Speed\" game on PC</string>
+    <string name="dialog_slide_show_enabling_info">Press \"Start\" button after opening \"Power Point\" program on PC</string>
+    <string name="dialg_yes">Yes</string>
+    <string name="dialg_no">No</string>
+    <string name="dialg_go_on">Continue</string>
+
+    <string name="txt_about_content_1">
+        <i>\"MouseDdroid\" - Control your PC via Android Mobile</i>
+        application is for controlling PC with android device.
+        \nThis application has created by <b>Sajid Qureshi</b>
+        as Bachelor of Technology major project under the guidance of <b>Mr. Sandeep Kumar</b>
+		
+    </string>
+
+    <string name="txt_about_content_2">
+        \nApplication contains of two part:
+        \n* Server - Runs on PC. Accepts commands from android device
+  		\n* Client - Runs on Android device. Send commands to PC.
+        \n
+  		\nServer should work on Windows, Linux, MacOS, Solaries operating systems.
+        Tested on Windows OS.
+    </string>
+</resources>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">cAndroid - Control via Android</string>
+
+    <string name="txt_touchpad_keyboard">Touchpad and Keyboard</string>
+    <string name="txt_need_for_speed">\"Need for Speed\" control</string>
+    <string name="txt_slide_show">SlideShow control</string>
+    <string name="txt_settings">Settings</string>
+    <string name="txt_about_title">About</string>
+    <string name="txt_menu_control">Touchpad</string>
+
+    <string name="settings_act_tv_head">Server configuration</string>
+    <string name="settings_act_tv_ip">IP address </string>
+    <string name="settings_act_tv_port">Port</string>
+    <string name="settings_act_tv_btn_save">Save</string>
+    <string name="settings_act_btn_cancel">Cancel</string>
+
+    <string name="settings_act_match_ip_text">Set right value to IP</string>
+    <string name="settings_act_match_port_text">Set right value to port</string>
+    <string name="settings_act_saved_normally_text">Data has saved</string>
+    <string name="settings_act_saved_not_normally_text">Error occurred when saving data!</string>
+    <string name="settings_act_match_dialog_title">Coution!</string>
+    <string name="txt_connected_msg">Connected to server</string>
+    <string name="txt_connected_dont_msg">Couldn\'t connect to server</string>
+
+
+    <string name="need_for_speed_act__btn_stop">Brake</string>
+    <string name="need_for_speed_act_btn_start">Start</string>
+    <string name="need_for_speed_act_btn_pause">Pause</string>
+    <string name="need_for_speed_act_btn_direct">D</string>
+    <string name="need_for_speed_act_btn_return">R</string>
+    <string name="need_for_speed_act_btn_manual">Manual</string>
+    <string name="need_for_speed_act_btn_aoutomatic">Automatic</string>
+    <string name="need_for_speed_act_btn_plus">+</string>
+    <string name="need_for_speed_act_btn_minus">-</string>
+
+    <string name="slide_show_act_btn_start">Start</string>
+    <string name="slide_show_act_btn_end">End</string>
+    <string name="slide_show_act_information">To change pages swipe your finger on area to right and left</string>
+
+    <string name="dialog_wi_fi_enabling_question">Wi-Fi network is not active.\n Do you want activate?</string>
+    <string name="dialog_nfs_enabling_info">Press \"Start\" button after opening \"Need for Speed\" game on PC</string>
+    <string name="dialog_slide_show_enabling_info">Press \"Start\" button after opening \"Power Point\" program on PC</string>
+    <string name="dialg_yes">Yes</string>
+    <string name="dialg_no">No</string>
+    <string name="dialg_go_on">Continue</string>
+
+    <string name="txt_about_content_1">
+        <i><a href="https://github.com/hummatli/cAndroid">\"cAndroid\" - Control via Android</a></i>
+        application is for controlling PC with android device.
+        \nThis application has created by <i><a href="https://www.linkedin.com/in/hummatli">Sattar Hummatli</a></i>
+        to provide to contest <i><a href="http://androidage.hackathonazerbaijan.org">\"Android Age\"</a></i>
+        which hold by <i><a href="http://hackathonazerbaijan.org">\"Hackathon Azerbaijan\"</a></i>.
+        \nApplication took third place on competition.
+    </string>
+
+    <string name="txt_about_content_2">
+        \nApplication contains of two part:
+        \n* Server - Runs on PC. Accepts commands from android device
+  		\n* Client - Runs on Android device. Send commands to PC.
+        \n
+  		\nServer suggested work on Windows, Linux, MacOS, Solaries operating systems.
+        Tested on Windows OS.
+        \n
+        \nApplictaion open sourced on <i><a href="https://github.com/hummatli/cAndroid">GitHub.com</a></i>.
+        \n
+        \nDeveloper: <i><a href="https://www.linkedin.com/in/hummatli">Sattar Hummatli</a></i>
+    </string>
+</resources>
+>>>>>>> 783f7b9796d5c7b38e67fa4f6e3e1a5198839c55:cAndroid/cAndroidClient/src/main/res/values/strings.xml

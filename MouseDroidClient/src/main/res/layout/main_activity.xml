@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center|top"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/tvMainAboutInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_about_content_1"
+                android:textSize="17sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="25dp">
+
+                <Button
+                    android:id="@+id/btnMATouchPad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_touchpad_keyboard"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="7dp"
+                    android:minHeight="60dp"/>
+
+
+                <Button
+                    android:id="@+id/btnMANeedForSpeed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_need_for_speed"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="7dp"
+                    android:minHeight="60dp"/>
+
+
+                <Button
+                    android:id="@+id/btnMASlideShow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_slide_show"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="7dp"
+                    android:minHeight="60dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':libCommands')
+}
+task deleteJar(type: Delete) {
+    delete 'libs/logmanagementlib.jar'
+}
+
+task createJar(type: Copy) {
+    from('build/intermediates/bundles/release/')
+    into('libs/jars/')
+    include('classes.jar')
+    rename('classes.jar', 'cAndroid.jar')
+}
+
+createJar.dependsOn(deleteJar, build)

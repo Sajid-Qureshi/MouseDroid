@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+<<<<<<< HEAD:MouseDroid/MouseDroidClient/build.gradle
+    compileSdkVersion 24
+=======
+    compileSdkVersion 25
+>>>>>>> 783f7b9796d5c7b38e67fa4f6e3e1a5198839c55:cAndroid/cAndroidClient/build.gradle
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.sajid.mousedroid"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile project(':libCommands')
+}
